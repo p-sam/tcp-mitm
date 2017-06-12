@@ -1,0 +1,33 @@
+{
+  "name": "tcp-mitm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TCP MITM Proxy with a web-based monitoring interface",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-sam/tcp-mitm.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "p-sam",
+    "email": "p-sam@d3vs.net",
+    "url": "https://github.com/p-sam"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "tcp-mitm": "./bin/cmd.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "require-environment-variables": "^1.1.2",
+    "socket.io": "^2.0.2",
+    "uws": "^0.14.5"
+  }
+}

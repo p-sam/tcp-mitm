@@ -1,0 +1,56 @@
+html, body {
+	background-color: #101010;
+	color: #eeeadd;
+	font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+}
+
+.hide {
+	display: none;
+}
+
+a {
+	color: #3b99fc;
+}
+
+#logs {
+	background-color: #262626;
+    overflow: auto;
+    margin: 15px 10px;
+    font-family: monospace;
+    border-radius: 4px;
+    
+}
+
+#logs > p {
+	border-bottom: 1px solid #101010;
+	border-top: 1px solid #101010;
+	margin: 0;
+	padding: 8px 4px;
+}
+
+#logs > p.EVENT_ERROR, #logs > p.EVENT_UPSTREAM_ERROR {
+    color: #ff4d4d;
+}
+
+#logs > p span.type {
+	color: #3b99fc;
+}
+
+#filters-container {
+	background-color: #262626;
+	padding: 10px;
+	margin: 15px 10px;
+    border-radius: 4px;
+}
+
+#filters {
+	margin-top: 10px;
+}
+
+#socket-filter-input {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	max-width: 100%;
+	width: 200px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Log - TCP Proxy</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="/style.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<div id="filters-container">
+			<a href="#" id="filter-view-toggle">Toggle Filters</a>
+			&nbsp;&bull;&nbsp;
+			<a href="#" id="filter-export-filtered">Export Filtered</a>
+			&nbsp;&bull;&nbsp;
+			<a href="#" id="filter-export-all">Export All</a>
+			&nbsp;&bull;&nbsp;
+			<a href="#" id="filter-clear">Clear</a>
+			<div id="filters" class="hide">
+				<div id="checkbox-filters"></div>
+				<span>Socket: &nbsp;</span><input type="text" id="socket-filter-input" />
+			</div>
+		</div>
+		
+		<div id="logs"></div>
+		
+		<script src="/vendors.js"></script>
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/functions.js"></script>
+		<script src="/listeners.js"></script>
+	</body>
+</html>
