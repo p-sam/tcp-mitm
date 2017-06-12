@@ -1,15 +1,11 @@
 {
   "name": "tcp-mitm",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.2",
   "description": "TCP MITM Proxy with a web-based monitoring interface",
   "repository": {
     "type": "git",
     "url": "https://github.com/p-sam/tcp-mitm.git"
   },
-  "files": [
-    "dist"
-  ],
   "author": {
     "name": "p-sam",
     "email": "p-sam@d3vs.net",
