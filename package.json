@@ -1,6 +1,6 @@
 {
   "name": "tcp-mitm",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "TCP MITM Proxy with a web-based monitoring interface",
   "repository": {
     "type": "git",
