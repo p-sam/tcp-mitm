@@ -17,7 +17,7 @@
     "tcp-mitm": "./bin/cmd.js"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node ./bin/cmd.js"
   },
   "dependencies": {
     "dotenv": "^4.0.0",

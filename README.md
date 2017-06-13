@@ -7,10 +7,12 @@ TCP MITM Proxy with a web-based monitoring interface
 ```bash
 npm install -g
 vi .env
-tcp-mitm
+tcp-mitm [env-file]
 ```
 
-You can define the required environment variables, but it will also load the `.env` file from the current working directory.
+You can define the required environment variables, but it will also load the provided env-file by argument. This parameter is optional and defaults to `.env` in the current working directory.
+
+Please go to the [dotenv](https://www.npmjs.com/package/dotenv) package page for further instructions on the envfile format.
 
 ## Required environment variables
 
